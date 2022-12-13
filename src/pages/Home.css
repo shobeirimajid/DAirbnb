@@ -1,16 +1,22 @@
+.main{
+  height: 100vh;
+  background-size: cover;
+  z-index: -999;
+  width: 100vw;
+  
+}
 .container {
   position: absolute;
   top: 0;
-  height: 100vh;
-  width: 100vw;
-  background-size: cover;
-  z-index: -999;
+  height: fit-content;
+  width: 100%;
+  
 }
 
-.containerGradinet {
+.containerGradient {
   background-image: linear-gradient(rgb(0,0,0,0.75), rgb(0,0,0,0));
   height:50%;
-  width:100%
+  width:95%
 }
 
 
@@ -42,6 +48,7 @@
 
 .searchFields {
   width:800px;
+  max-width: 100%;
   background-color: white;
   height:65px;
   border-radius: 100px;
@@ -56,7 +63,7 @@
   font-weight: 500;
   display: flex;
   justify-content: center;
-  gap:35px;
+  gap:30px;
   font-size: 16px;
 }
 
